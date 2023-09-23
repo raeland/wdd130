@@ -7,6 +7,19 @@ nav a {
     display: block;
     padding: 20px;
 }
+
+main {
+    max-width: 900px;
+}
+
+aside {
+    margin: 10px auto;
+    border: 1px solid ;
+    padding: 10px;
+    background-color: #bbb;
+    columns: #000;
+}
+
 h1 {
     color: steelblue;
 }
@@ -19,4 +32,11 @@ img {
 }
 p {
     padding: 10px;
+}
+
+footer {
+    margin: 10px auto;
+    border: 1px solid ;
+    padding: 10px;
+    background-color: #bbb;
 }
