@@ -5,7 +5,8 @@
 }
 
 body {
-    font-family: 'Acme', sans-serif;
+    font-family: 'Acme', sans-serif;var(--paragraph-font);
+max-width: 960px;
     background-color: #ffffff;
 }
 
@@ -17,7 +18,20 @@ body {
 
 @import url('https://fonts.google.com/specimen/Acme?query=acme');
     
-        
+:root {
+    --primary-color: #1B7032;
+    --secondary-color: #3AF06A;
+    --accent1-color: #83F2A1;
+    --accent2-color: #3D704A;
+
+    --heading-font: 'Acme', sans-serif;
+    --paragraph-font: '', sans-serif;
+
+    --nav-background-color: #ffffff;
+    --nav-link-color: #3D704A;
+    --nav-hover-link-color: #83F2A1;
+    --nav-hover-background-color: #3AF06A;
+}        
 /* Color Theme Swatches in Hex */
 .WWR-colors-1-hex { color: #1B7032; } /*primary-color*/
 .WWR-colors-2-hex { color: #83F2A1; } /*accent1-color*/

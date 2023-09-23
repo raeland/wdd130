@@ -9,15 +9,27 @@ nav a {
 }
 
 main {
-    max-width: 900px;
+    max-width: 840px;
 }
 
 aside {
-    margin: 10px auto;
-    border: 1px solid ;
-    padding: 10px;
-    background-color: #bbb;
-    columns: #000;
+    width: 20rem
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 1rem;
+    background-color: #eee;
+    columns: #333;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+main img {
+    width: 150px;
+    height: auto;
 }
 
 h1 {
@@ -31,12 +43,16 @@ img {
     box-shadow: 0 0 30px gray;
 }
 p {
-    padding: 10px;
+    padding: 0;
 }
 
 footer {
-    margin: 10px auto;
+    margin-top: 1em;
+    border-top: 1px solid #000;
+    text-align: center;
+    /*margin: 10px auto;
     border: 1px solid ;
     padding: 10px;
     background-color: #bbb;
+    */
 }
