@@ -1,11 +1,11 @@
 * {
     margin: 0;
-    padding: auto;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'Acme', sans-serif;var(--paragraph-font);
+    font-family: 'Acme', sans-serif, var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
     background-color: #ffffff;
@@ -69,7 +69,7 @@ nav a:hover {
     --nav-hover-link-color: #83F2A1;
     --nav-hover-background-color: #3AF06A;
 }  
-      
+
 /* Color Theme Swatches in Hex*/
 .WWR-colors-1-hex { color: #1B7032; } /*primary-color*/*/
 .WWR-colors-2-hex { color: #83F2A1; } /*accent1-color*/
