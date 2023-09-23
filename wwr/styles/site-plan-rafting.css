@@ -6,9 +6,46 @@
 
 body {
     font-family: 'Acme', sans-serif;var(--paragraph-font);
-max-width: 960px;
+    max-width: 960px;
+    padding: 20px;
     background-color: #ffffff;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
 
 /*.containter {
     max-width: 1200px;
@@ -31,22 +68,21 @@ max-width: 960px;
     --nav-link-color: #3D704A;
     --nav-hover-link-color: #83F2A1;
     --nav-hover-background-color: #3AF06A;
-}        
-/* Color Theme Swatches in Hex */
-.WWR-colors-1-hex { color: #1B7032; } /*primary-color*/
+}  
+      
+/* Color Theme Swatches in Hex*/
+.WWR-colors-1-hex { color: #1B7032; } /*primary-color*/*/
 .WWR-colors-2-hex { color: #83F2A1; } /*accent1-color*/
 .WWR-colors-3-hex { color: #3AF06A; } /*secondary-color*/
 .WWR-colors-4-hex { color: #3D704A; } /*accent2-color*/
-.WWR-colors-5-hex { color: #2DBD53; } /**/
-
-/* Color Theme Swatches in RGBA */
+.WWR-colors-5-hex { color: #2DBD53; } 
+Color Theme Swatches in RGBA
 .WWR-colors-1-rgba { color: rgba(27, 112, 50, 1); }
 .WWR-colors-2-rgba { color: rgba(131, 242, 161, 1); }
 .WWR-colors-3-rgba { color: rgba(58, 240, 106, 1); }
 .WWR-colors-4-rgba { color: rgba(61, 112, 74, 1); }
 .WWR-colors-5-rgba { color: rgba(45, 189, 83, 1); }
-
-/* Color Theme Swatches in HSLA */
+Color Theme Swatches in HSLA 
 .WWR-colors-1-hsla { color: hsla(136, 61, 27, 1); }
 .WWR-colors-2-hsla { color: hsla(136, 81, 73, 1); }
 .WWR-colors-3-hsla { color: hsla(135, 85, 58, 1); }
