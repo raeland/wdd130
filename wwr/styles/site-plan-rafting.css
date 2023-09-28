@@ -62,7 +62,7 @@ nav a:hover {
     --accent2-color: #3D704A;
 
     --heading-font: 'Acme', sans-serif;
-    --paragraph-font: '', sans-serif;
+    --paragraph-font: 'Inter', sans-serif;
 
     --nav-background-color: #ffffff;
     --nav-link-color: #3D704A;
@@ -70,21 +70,10 @@ nav a:hover {
     --nav-hover-background-color: #3AF06A;
 }  
 
-/* Color Theme Swatches in Hex*/
-.WWR-colors-1-hex { color: #1B7032; } /*primary-color*/*/
-.WWR-colors-2-hex { color: #83F2A1; } /*accent1-color*/
-.WWR-colors-3-hex { color: #3AF06A; } /*secondary-color*/
-.WWR-colors-4-hex { color: #3D704A; } /*accent2-color*/
+<!-- /*Color Theme Swatches in Hex
+.WWR-colors-1-hex { color: #1B7032; } primary-color
+.WWR-colors-2-hex { color: #83F2A1; } accent1-color
+.WWR-colors-3-hex { color: #3AF06A; } secondary-color
+.WWR-colors-4-hex { color: #3D704A; } accent2-color
 .WWR-colors-5-hex { color: #2DBD53; } 
-Color Theme Swatches in RGBA
-.WWR-colors-1-rgba { color: rgba(27, 112, 50, 1); }
-.WWR-colors-2-rgba { color: rgba(131, 242, 161, 1); }
-.WWR-colors-3-rgba { color: rgba(58, 240, 106, 1); }
-.WWR-colors-4-rgba { color: rgba(61, 112, 74, 1); }
-.WWR-colors-5-rgba { color: rgba(45, 189, 83, 1); }
-Color Theme Swatches in HSLA 
-.WWR-colors-1-hsla { color: hsla(136, 61, 27, 1); }
-.WWR-colors-2-hsla { color: hsla(136, 81, 73, 1); }
-.WWR-colors-3-hsla { color: hsla(135, 85, 58, 1); }
-.WWR-colors-4-hsla { color: hsla(135, 29, 33, 1); }
-.WWR-colors-5-hsla { color: hsla(135, 61, 45, 1); }
+-->
