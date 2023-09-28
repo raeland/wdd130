@@ -26,9 +26,14 @@ aside {
     background-color: #eee;
     columns: #333;
     text-align: center;
-    position: relative;
+    position: absolute;
 }
 
+aside h2 {
+    position: relative;
+    top: 47px;
+    left: 150px;
+}
 
 aside img {
     width: 200px;
