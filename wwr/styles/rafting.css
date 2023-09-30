@@ -27,11 +27,11 @@ h1 {
 
 article {
   background-color: opacity to fit the design and make sure it is readable
-  position: absolutely;
+  position: absolute;
   }
 
 img {
- floats to right of the paragraph 
+ float: right; 
 }
 
 /* Class Selector*/
