@@ -30,16 +30,12 @@ article {
   position: absolutely;
   }
 
-hero {
-
-}
-
 img {
  floats to right of the paragraph 
 }
 
 /* Class Selector*/
-.sociallinks a {
+.sociallinks nav {
   text-decoration: none;
 }
 
