@@ -1,5 +1,6 @@
 @import url('https://fonts.google.com/specimen/Acme?query=acme');
 @import url('https://fonts.google.com/specimen/Inter?query=inter');
+
 :root {
   --primary-color: #1B7032;
   --secondary-color: #3AF06A;
@@ -16,8 +17,9 @@
 }
 
 * {
-  width=600x1676;  
+  width: "600x1676";  
 }
+
 
 h1 {
   position: absolutely;
@@ -29,7 +31,7 @@ article {
   }
 
 hero {
-  
+
 }
 
 img {
@@ -37,6 +39,10 @@ img {
 }
 
 /* Class Selector*/
+.sociallinks a {
+  text-decoration: none;
+}
+
 .hero img {
   display: block;
   width: 100%;
