@@ -25,6 +25,7 @@ h1 {
   position: absolutely;
 }
 
+
 article {
   background-color: #ffffff;
   opacity: 0.33;
@@ -42,6 +43,7 @@ img {
 
 .hero img {
   display: block;
+  position: relative;
   width: 100%;
   height: auto;
 }
