@@ -26,7 +26,8 @@ h1 {
 }
 
 article {
-  background-color: opacity to fit the design and make sure it is readable
+  background-color: #ffffff;
+  opacity: 0.33;
   position: absolute;
   }
 
