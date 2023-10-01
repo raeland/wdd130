@@ -22,7 +22,7 @@
 
 
 h1 {
-  position: absolutely;
+  position: absolute;
 }
 
 
@@ -32,7 +32,7 @@ article {
   position: absolute;
   }
 
-img {
+.articleimg {
  float: right; 
 }
 
