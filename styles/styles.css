@@ -42,7 +42,6 @@ main a {
 }
 aside {
     width: 20rem;
-    margin: 1rem;
     text-align: center;
     position: relative;
     grid-column: 1/2;
