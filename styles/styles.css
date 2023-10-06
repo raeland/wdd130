@@ -43,14 +43,11 @@ main a {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid (0, 0, 0);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
     text-align: center;
     position: relative;
     grid-column: 1/2;
     grid-row: 1/2;
+    display: block;
 }
 
 aside h2 {
