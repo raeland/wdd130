@@ -20,6 +20,12 @@
   width: "600x1676";  
 }
 
+body {
+  font: 16px;
+  font-family: 'Acme', sans-serif;
+  font-family: 'Inter', sans-serif;
+}
+
 header {
   margin: 1rem auto;
   display: grid;
