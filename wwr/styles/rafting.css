@@ -20,17 +20,17 @@
   width: "600x1676";  
 }
 
-header, img, h1 {
+header {
   margin: 1rem auto;
   display: grid;
-  grid-template-columns: 120px 1fr 2fr;
+  grid-template-columns: 120px repeat(4, 1fr);
   align-items: center;
   border-bottom: 1px solid#ccc;
   max-width: 1000px;
 }
 
 .logo img {
-	margin: 0 0.25rem 0 1rem;
+	margin: 0 9.5rem 0 1rem;
 	width: 64px;
 	height: auto;
 }
