@@ -40,10 +40,10 @@ h1 {
 	font-family: Acme, Arial, sans-serif;
 }
 
-nav {
+/*nav {
   text-align: right;
 }
-
+*/
 .navigation {
 	display: flex;
 	list-style: none;
@@ -55,7 +55,7 @@ nav {
 
 .navigation a {
 	display: block;
-	color: navy;
+	color: #3D704A;
 	padding: 20px;
 	text-decoration: none;
 }
