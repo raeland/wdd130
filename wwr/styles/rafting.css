@@ -20,7 +20,7 @@
   width: "600x1676";  
 }
 
-header {
+.header-grid {
   margin: 1rem auto;
   display: grid;
   grid-template-columns: 120px repeat(4, 1fr);
