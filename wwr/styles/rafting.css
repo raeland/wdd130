@@ -20,7 +20,7 @@
   width: "600x1676";  
 }
 
-header, .grid {
+header, {
   margin: 1rem auto;
   display: grid;
   grid-template-columns: 120px 1fr 2fr;
@@ -61,13 +61,9 @@ nav {
 }
 
 .navigation a:hover {
-	color: tomato;
+	color: #83F2A1;
 	font-weight: 700;
 	text-decoration: underline;
-}
-
-h1 {
-  position: absolute;
 }
 
 article {
@@ -76,7 +72,7 @@ article {
   position: absolute;
   }
 
-.articleimg {
+.article img {
  float: right; 
 }
 
@@ -90,9 +86,4 @@ article {
   position: relative;
   width: 100%;
   height: auto;
-}
-
-.grid {
-  display: grid;
-  align-items: center;
 }
