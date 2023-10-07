@@ -44,6 +44,7 @@ header {
 h1 {
 	font-size: 5rem;
 	font-family: Acme, Arial, sans-serif;
+  color: #1B7032;
 }
 
 nav {
