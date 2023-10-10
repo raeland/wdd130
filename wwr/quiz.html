@@ -11,38 +11,45 @@
     <link href="https://fonts.googleapis.com/css2?family=Acme&family=Inter:wght@100&display=swap" rel="stylesheet"> -->
  </head>
   <body>
-      <header>
-      <img src="images/logo.png" alt="Gray and White White Water Rafting Company Logo">
-        <nav> 
-          <ul class="navigation">
-            <li><a href="#" target="_blank">Home</a></li>
-            <li><a href="wwr/about.html" target="_blank">About Us</a></li>
-            <li><a href="wwr/trips.html" target="_blank">Trips</a></li>
-            <li><a href="wwr/contact.html" target="_blank">Contact Us</a></li>
-          </ul>
-        </nav>
-      </header>
+    <header>
+      <h1>WDD 130 | Rachael S Varady | HTML Form - User Poll</h1>
+    </header>
     <main>
-           <div class="hero">
-             <img src="images/hero_transparency_1024.png" alt="people on raft in fast flowing water">
-             <h1>White Water Rafting</h1>
-             <article class="article">
-               <img class="articleimg" src="images/rafting59_600.jpg" alt="happy group with paddles">
-               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, reiciendis</p>
-             </article>
-           </div>
-      <section>
-        <h2>History</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, reiciendis!</p>
-      </section>
-      <section>
-        <h2>Adventure Awaits You!</h2>
-        <img src="images/rafting14_600.jpg" alt=""><br> 
-        <img src="images/rafting42_600.jpg" alt=""><br>
-        <img src="images/rafting47_600.jpg" alt=""><br>
-        <img src="images/rafting56_600.jpg" alt=""><br>
-        <img src="images/rafting65_600.jpg" alt=""><br>
-      </section>
+    <form>
+      <fieldset>
+        <legend>Contact Infromation</legend>
+        <!-- form elements will go here -->
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname">
+        <label for="email">Email:</label>
+        <input type="email" id="useremail" name="useremail">
+        <fieldset>
+          <legend>Contact Information</legend>
+          <label>Full Name: <input type="text" name="fullnam"></label>
+          <label>Email: <input type="email" name="useremail"></label>
+        </fieldset>
+      </fieldset>
+      <fieldset>
+        <legend>Quiz Questions</legend>
+        <!-- form elements will go here --> 
+        <label for="q1">Do you have a household pet?</label>
+          <input type="text" id="q1" name="q1">
+          
+        <label for="q2">List the places you have lived:</label>
+        <textarea id="q2" name="q2" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali"></textarea>
+        
+        <label for="q3">What is your favorite browser?</label>
+        <select id="q3" name="q3">
+          <option value="" selected disabled>Choose One ...</option>
+            <option value="Chrome"></option>
+            <option value="Edge"></option>
+            <option value="Duck Duck"></option>
+
+        <label for="q4">Do you have a household pet?</label>
+          <input number="q4" id="q4" name="q4">
+      </fieldset>
+      <button type="submit">Submit Poll</button> 
+    </form>
     </main>
 
     <footer>
