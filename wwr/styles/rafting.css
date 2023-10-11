@@ -87,13 +87,9 @@ nav {
 /* Class Selector*/
 .sociallinks nav {
   text-decoration: none;
-  margin: 1rem auto;
   display: grid;
   grid-template-columns: 10px 10px 10px;
-  gap: 2rem;
-  align-items: center;
-  border-bottom: 1px solid#ccc;
-  max-width: 1000px;
+  gap: 20rem;
 }
 
 .hero img {
