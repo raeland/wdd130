@@ -4,8 +4,8 @@
     <meta charset="utf-8" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>About Us</title>
-    <meta name="description" content="White Water Rafting Site">
-    <meta name="author" content="Rachael">
+    <meta name="description" content="Contact">
+    <meta name="author" content="Rachael S Varady">
  </head>
   <body>
       <header>
@@ -20,26 +20,24 @@
         </nav>
       </header>
     <main>
-           <div class="hero">
-             <img src="images/hero_transparency_1024.png" alt="people on raft in fast flowing water">
-             <h1>White Water Rafting</h1>
-             <article class="article">
-               <img class="articleimg" src="images/rafting59_600.jpg" alt="happy group with paddles">
-               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, reiciendis</p>
-             </article>
-           </div>
-      <section>
-        <h2>History</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, reiciendis!</p>
-      </section>
-      <section>
-        <h2>Adventure Awaits You!</h2>
-        <img src="images/rafting14_600.jpg" alt=""><br> 
-        <img src="images/rafting42_600.jpg" alt=""><br>
-        <img src="images/rafting47_600.jpg" alt=""><br>
-        <img src="images/rafting56_600.jpg" alt=""><br>
-        <img src="images/rafting65_600.jpg" alt=""><br>
-      </section>
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label>Purpose of Message:</label>
+        <label><input type="radio" name="Purpose" value="General Inquiry" checked>General Inquiry</label>
+        <label><input type="radio" name="Purpose" value="Reservation Questions">Reservation Question</label>
+        <label><input type="radio" name="Purpose" value="Website Suggestion">Website Suggestion</label>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <label><input type="checkbox" name="subscribe" value="yes"> Please send me monthly newletters</label>
+        <button type="submit">Submit Poll</button> 
+      </form>
     </main>
 
     <footer>
