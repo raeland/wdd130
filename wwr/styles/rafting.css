@@ -84,6 +84,14 @@ nav {
  float: right; 
 }
 
+figure {
+  border: thin #333;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 220px;
+  margin: auto;
+}
 /* Class Selector*/
 .sociallinks nav {
   text-decoration: none;
