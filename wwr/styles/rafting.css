@@ -26,7 +26,7 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
-header {
+header .grid {
   margin: 1rem auto;
   display: grid;
   grid-template-columns: 12px 1fr 2fr;
@@ -38,12 +38,12 @@ header {
 
 .logo img {
 	margin: 0 5rem 0 1rem;
-	width: 5px;
+	width: 2rem;
 	height: auto;
 }
 
 h1 {
-	font-size: 5rem;
+	font-size: 2rem;
 	font-family: Acme, Arial, sans-serif;
   color: #1B7032;
 }
@@ -101,7 +101,7 @@ nav {
 
 .hero img {
   display: block;
-  position: relative;
+  position: absolute;
   width: 100%;
   height: auto;
 }
