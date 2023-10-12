@@ -87,7 +87,16 @@ nav {
 /* Class Selector*/
 .sociallinks nav {
   text-decoration: none;
-  gap: 3rem;
+}
+
+.sociallinks {
+	padding: 20px;
+	width: 15px;
+	height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  max-width: 75px;
 }
 
 .hero img {
@@ -97,7 +106,7 @@ nav {
   height: auto;
 }
 
-input[type="checkbox"] {
+input[type="checkboxY"] {
   display: none;
   width: 25px;
   height: 25px;
