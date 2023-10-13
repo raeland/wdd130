@@ -123,3 +123,8 @@ input[type="checkboxY"] {
   height: auto;
   flex: content;
 }
+
+.map {
+width: 600px;
+height: auto;
+}
