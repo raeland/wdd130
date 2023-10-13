@@ -143,6 +143,9 @@ input[type="checkboxY"] {
 }
 
 .map {
-width: 600px;
+width: 1500px;
 height: auto;
+padding: 5px;
+border: 1px solid #3D704A;
+display: grid;
 }
