@@ -112,6 +112,16 @@ figure {
   height: auto;
 }
 
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid #fff;
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
 input[type="checkboxY"] {
   display: none;
   width: 25px;
