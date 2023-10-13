@@ -122,6 +122,14 @@ form {
     display: grid;
 }
 
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid #fff;
+    padding: 2rem;
+}
+
 input[type="checkboxY"] {
   display: none;
   width: 25px;
