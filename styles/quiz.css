@@ -69,3 +69,8 @@ footer {
     color: #777;
     border-top: 1px solid #ccc;
 }
+
+input[type="number"] {
+    width: 85px;
+    height: 22px;
+}
