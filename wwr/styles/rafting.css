@@ -20,6 +20,7 @@ body {
   font: 16px;
   font-family: 'Acme', sans-serif;
   font-family: 'Inter', sans-serif;
+  width: 1200px;
 }
 
 header .grid{
@@ -157,6 +158,9 @@ input[type="checkboxN"] {
   display: grid;
 }
 
+.profiles .img {
+width: 300px;
+}
 .map {
 width: 50px;
 height: auto;
