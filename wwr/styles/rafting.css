@@ -107,6 +107,10 @@ footer {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+footer img {
+  width: 5rem;
+}
+
 .sociallinks img {
   width: 50px;
 }
