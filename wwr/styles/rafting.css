@@ -109,6 +109,16 @@ figure {
   align-items: center;
   max-width: 5px;
 }
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.sociallinks img {
+  width: 50px;
+}
+
 .icon {
   width: 1px;
   height: auto;
@@ -123,7 +133,6 @@ figure {
 form {
     width: 650px;
     margin: 0 auto;
-    padding: 25rem;
     border: 1px solid #fff;
     border-radius: 0.5rem;
     background-color: #3D704A;
@@ -156,6 +165,7 @@ input[type="checkboxN"] {
   width: 13px;
   height: auto;
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .profiles img {
@@ -168,3 +178,4 @@ padding: 5px;
 border: 1px solid #3D704A;
 display: grid;
 }
+
