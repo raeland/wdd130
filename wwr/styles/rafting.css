@@ -166,7 +166,9 @@ input[type="checkboxN"] {
 
 .profiles img {
 width: 300px;
+	padding: 5rem;
 }
+
 .map {
 width: 50px;
 height: auto;
