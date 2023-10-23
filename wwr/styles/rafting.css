@@ -183,3 +183,8 @@ display: grid;
   padding: 1px;
   border-radius: 2rem;
 }
+
+.lineup {
+  vertical-align: top;
+  
+}
