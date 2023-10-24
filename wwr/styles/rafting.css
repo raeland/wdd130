@@ -50,6 +50,13 @@ h1 {
   color: #1B7032;
 }
 
+h2 {
+	font-size: 2rem;
+	font-family: Acme, Arial, sans-serif;
+  color: #1B7032;
+  text-align: center;
+}
+
 .navigation {
   text-align: right;
 	display: flex;
@@ -79,14 +86,24 @@ h1 {
  float: right; 
 }
 
-figure {
+#figure {
   border: thin #333;
   display: flex;
   flex-flow: column;
-  padding: 5px;
+  padding: 1rem;
   max-width: 220px;
   margin: auto;
 }
+
+figure img {
+width: 130px;
+height: auto;
+}
+
+figcaption {
+  text-align: center;
+}
+
 /* Class Selector*/
 .sociallinks nav {
   text-decoration: none;
@@ -119,6 +136,7 @@ footer img {
   width: 1px;
   height: auto;
 }
+
 .hero img {
   display: block;
   position: relative;
@@ -185,6 +203,18 @@ display: grid;
 }
 
 .lineup {
-  vertical-align: top;
-  
+  display: flex;
+ align-items: center;
+}
+
+.sectionbox {
+  background-color: #cccccc49;
+  border: 1px;
+  padding: 10px;
+}
+
+.sectionbox2 {
+  background-color: #83F2A1;
+  border: 1px;
+  padding: 10px;
 }
