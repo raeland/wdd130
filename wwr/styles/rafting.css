@@ -178,6 +178,10 @@ form {
     flex-wrap: wrap;
 }
 
+form, p {
+  color: #fff;
+}
+
 fieldset {
     display: grid;
     grid-gap: .5rem;
