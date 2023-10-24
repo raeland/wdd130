@@ -71,14 +71,13 @@ h2 {
 }
 
 .navigation a:hover {
-	color: #83F2A1;
-	font-weight: 700;
-	text-decoration: underline;
+   color: #83F2A1;
+   font-weight: 700;
+   text-decoration: underline;
 }
 
-.article {
-  background-color: #ffffff;
-  opacity: 0.33;
+article {
+  background-color: rgba(255,255,255,.6);
   position: absolute;
   top: 35px;
   left: 15px;
@@ -86,10 +85,10 @@ h2 {
   text-align: left;
   }
 
-.articleimg {
- float: right; 
- width: 10px;
-height: auto;
+ .hero article img {
+   float: right; 
+   width: 200px;
+   height: auto;
 }
 
 #figure {
