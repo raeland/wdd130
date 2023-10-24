@@ -178,8 +178,9 @@ form {
     flex-wrap: wrap;
 }
 
+
 form, p {
-  color: #fff;
+  color: #000;
 }
 
 fieldset {
@@ -188,6 +189,10 @@ fieldset {
     margin: 1rem;
     border: 1px solid #fff;
     padding: 2rem;
+}
+
+fieldset, label {
+  color: #fff;
 }
 
 input[type="checkboxY"] {
