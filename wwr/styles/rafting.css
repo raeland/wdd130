@@ -76,14 +76,13 @@ h2 {
 	text-decoration: underline;
 }
 
-article {
+.article {
   background-color: #ffffff;
   opacity: 0.33;
   position: absolute;
   top: 35px;
   right: 15px;
   text-align: left;
-  float: center;
   }
 
 .articleimg {
@@ -139,18 +138,16 @@ footer {
 
 footer img {
   width: 5rem;
-  border-radius: 1rem solid #3AF06A;
+  border-radius: 1rem;
 }
 
 .sociallinks img {
   width: 50px;
-  align-content: right;
 }
 
 .icon {
   width: 1px;
   height: auto;
-  align-content: right;
 }
 
 .hero {
