@@ -76,14 +76,20 @@ h2 {
 	text-decoration: underline;
 }
 
-.article {
+article {
   background-color: #ffffff;
   opacity: 0.33;
   position: absolute;
+  top: 35px;
+  right: 15px;
+  text-align: left;
+  float: center;
   }
 
 .articleimg {
  float: right; 
+ width: 10px;
+height: auto;
 }
 
 #figure {
@@ -104,9 +110,15 @@ figcaption {
   text-align: center;
 }
 
+section {
+  display: flex;
+  flex-direction: row;
+}
+
 /* Class Selector*/
 .sociallinks nav {
   text-decoration: none;
+  text-align: right;
 }
 
 .sociallinks {
@@ -121,20 +133,29 @@ figcaption {
 
 footer {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  width: 1200px;
 }
 
 footer img {
   width: 5rem;
+  border-radius: 1rem solid #3AF06A;
 }
 
 .sociallinks img {
   width: 50px;
+  align-content: right;
 }
 
 .icon {
   width: 1px;
   height: auto;
+  align-content: right;
+}
+
+.hero {
+  width: 1200px;
+
 }
 
 .hero img {
@@ -142,15 +163,16 @@ footer img {
   position: relative;
   width: 100%;
   height: auto;
+  object-fit: cover;
 }
 
 form {
-    width: 650px;
+    width: 450px;
     margin: 0 auto;
     border: 1px solid #fff;
-    border-radius: 0.5rem;
     background-color: #3D704A;
     display: flex;
+    flex-wrap: wrap;
 }
 
 fieldset {
@@ -180,19 +202,23 @@ input[type="checkboxN"] {
   height: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  flex-wrap: wrap;
+  padding-bottom: 5rem;
 }
 
 .profiles img {
 width: 300px;
-	padding: 5rem;
+	padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-content: space-between;
+  flex-wrap: wrap;
 }
 
 .map {
 width: 50px;
 height: auto;
 padding: 5px;
-border: 1px solid #3D704A;
-display: grid;
 }
 
 #float {
@@ -211,10 +237,29 @@ display: grid;
   background-color: #cccccc49;
   border: 1px;
   padding: 10px;
+  font-size: 15px;
 }
 
+#sectionbox {
+  display: flex;
+  align-content: space-evenly;
+}
+
+.sectionboximg {
+  width: 325px;
+  height: auto;
+  border: 1px;
+  padding: 10px;
+}
 .sectionbox2 {
   background-color: #83F2A1;
   border: 1px;
   padding: 10px;
+}
+
+#contentsection {
+  margin: 1rem 1rem 1rem 1rem;
+  height: auto;
+  display: grid;
+  grid-template-columns:repeat(2, 1fr);
 }
