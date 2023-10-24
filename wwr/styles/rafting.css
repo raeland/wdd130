@@ -187,12 +187,6 @@ input[type="checkboxY"] {
   display: none;
   width: 25px;
   height: 25px;
-}
-
-input[type="checkboxN"] {
-  display: none;
-  width: 25px;
-  height: 25px;
   padding-left: 5px;
 }
 
