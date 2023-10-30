@@ -48,6 +48,7 @@ h1 {
 	font-size: 2rem;
 	font-family: Acme, Arial, sans-serif;
   color: #1B7032;
+  text-align: center;
 }
 
 h2 {
@@ -57,6 +58,9 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  text-align: center;
+}
 .navigation {
   text-align: right;
 	display: flex;
@@ -64,8 +68,11 @@ h2 {
 }
 
 .navigation a {
+  margin: 5rem 2rem 2rem 2rem;
 	display: block;
 	color: #3D704A;
+  font-weight: bold;
+  font-size: larger;
 	padding: 20px;
 	text-decoration: none;
 }
@@ -267,6 +274,7 @@ padding: 5px;
   border: 1px;
   padding: 10px;
 }
+
 .sectionbox2 {
   background-color: #83F2A1;
   border: 1px;
@@ -278,4 +286,28 @@ padding: 5px;
   height: auto;
   display: grid;
   grid-template-columns:repeat(2, 1fr);
+}
+
+#home {
+  padding: 1rem 1rem 1rem 1rem;
+  height: auto;
+  display: grid;
+  grid-template-columns:repeat(3, 1fr);
+  align-content: space-around;
+  text-align: center;
+}
+
+#home img {
+ align-content: center;
+  width: 402px;
+  height: 250px;
+}
+
+#home button {
+  width: 125px;
+  height: 75px;
+  background-color: #cccccc;
+  align-content: center;
+  border: 10px;
+  padding: 1rem 1rem 1rem 1rem;
 }
